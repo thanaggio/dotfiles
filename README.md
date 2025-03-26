@@ -11,6 +11,8 @@ as is or adjust them to their needs. Some configuration may also apply for other
 but due to hardware constraints I'm unable to verify it.
 
 I'll be maintaining a list of fonts and programs I use for each item, to centralize the requirements.
+These are not lists of dependencies! For example, you can use Waybar on your own without having to
+install JetBrains Nerd Fonts.
 
 ## Config List
 ### Dotfiles
@@ -21,3 +23,7 @@ Uses:
 Uses:
 - [starship](https://starship.rs/)
 - [nvm](https://github.com/nvm-sh/nvm)
+
+### Waybar
+Uses:
+- [JetBrains Nerd Fonts](https://www.nerdfonts.com/font-downloads)
