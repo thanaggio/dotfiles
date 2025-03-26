@@ -18,6 +18,9 @@ set $term alacritty
 # Your preferred application launcher
 set $menu rofi -show drun
 
+# Remove title from window
+default_border pixel 2
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
@@ -193,9 +196,7 @@ bindsym $mod+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    bindsym Print exec grim
-    bindsym Print exec grim
-
+    bindsym $mod+shift+S exec grim -g "$(slurp)" $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s_grim.png')
 #
 # Status Bar:
 #
