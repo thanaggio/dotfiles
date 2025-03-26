@@ -27,3 +27,10 @@ Uses:
 ### Waybar
 Uses:
 - [JetBrains Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+
+### Sway
+Uses:
+- Alacritty (terminal)
+- swaylock/swayidle
+- wlsunset
+- waybar
